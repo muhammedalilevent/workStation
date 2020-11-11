@@ -1,0 +1,18 @@
+app-map {
+  flex: 5;
+
+  height: 100%;
+  resize: both;
+}
+app-v-player {
+  flex: 5;
+  background-color: lightseagreen;
+  height: 100%;
+  resize: both;
+}
+
+.vl {
+  color: pink;
+  height: 100%;
+  border-left: 6px solid;
+}

@@ -1,0 +1,16 @@
+<!--  -->
+<ag-hsplitter (resizeEnd)="onResize($event)" [isFullLeft]="splitScreen">
+  <app-map
+    left
+    (vpInfo)="onVPOpened($event)"
+    (sendSec)="onSendComing($event)"
+    [resizeChecker]="resizeChecker"
+    (screenInf)="screenChanger($event)"
+  ></app-map>
+  <app-v-player
+    right
+    *ngIf="vpOpener"
+    [incomingUrl]="vpInfo"
+    [cameSec]="incomingSec"
+  ></app-v-player>
+</ag-hsplitter>

@@ -1,0 +1,21 @@
+::ng-deep #player {
+  height: 100%;
+  width: 100%;
+}
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+
+  height: 100%;
+}
+
+/*
+.iframe-container .id{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
